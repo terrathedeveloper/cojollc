@@ -11,137 +11,257 @@
     Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
 ================================== -->
 <html lang="en" class="no-js">
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>CoJoLLC</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+  <!-- BEGIN HEAD -->
+  <head>
+    <meta charset="utf-8" />
+    <title>CoJoLLC</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
 
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <link href="css/animate.css" rel="stylesheet" />
+    <link
+      href="vendor/swiper/css/swiper.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-        <!-- THEME STYLES -->
-        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+    <!-- THEME STYLES -->
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
-        <style>
-            .logo-text{
-                font-family: Hind, sans-serif;
-                font-size: 30px;
-                color:purple;
-                font-weight: bolder;
-            }
-        </style>
-    </head>
-    <!-- END HEAD -->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <style>
+      .logo-text {
+        font-family: Hind, sans-serif;
+        font-size: 30px;
+        color: purple;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <!-- END HEAD -->
 
-    <!-- BODY -->
-    <body id="body" data-spy="scroll" data-target=".header">
+  <!-- BODY -->
+  <body id="body" data-spy="scroll" data-target=".header">
+    <!--========== HEADER ==========-->
+    <header class="header navbar-fixed-top">
+      <!-- Navbar -->
+      <nav class="navbar" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="menu-container js_nav-item">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".nav-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="toggle-icon"></span>
+            </button>
 
-        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container js_nav-item">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
-
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <!--<img class="logo-img" src="img/logo.png" alt="Asentus Logo">-->
-                                <span class="logo-text">CoJoLLC</span>
-                            </a>
-                        </div>
-                        <!-- End Logo -->
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Business</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Speaking Engagements</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Navbar Collapse -->
-                </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <!--========== END HEADER ==========-->
-
-        <!--========== SLIDER ==========-->
-        <div class="promo-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 sm-margin-b-60">
-                        <div class="margin-b-30">
-                            <h1 class="promo-block-title">Courtney <br/> Johnson</h1>
-                            <p class="promo-block-text">Vice President, Client Relationship Management - National Accounts</p>
-                        </div>
-                        <ul class="list-inline">
-                            <li><a href="#" class="social-icons"><i class="icon-social-facebook"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-twitter"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-behance"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="promo-block-img-wrap">
-                            <img class="promo-block-img img-responsive" style="width:100%" src="img/profile-mn.png" align="Avatar">
-                        </div>
-                    </div>
-                </div>
-                <!--// end row -->
+            <!-- Logo -->
+            <div class="logo">
+              <a class="logo-wrap" href="#body">
+                <!--<img class="logo-img" src="img/logo.png" alt="Asentus Logo">-->
+                <span class="logo-text">CoJoLLC</span>
+              </a>
             </div>
+            <!-- End Logo -->
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse nav-collapse">
+            <div class="menu-container">
+              <ul class="nav navbar-nav navbar-nav-right">
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#body">Home</a>
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#about"
+                    >About</a
+                  >
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#experience"
+                    >Business</a
+                  >
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#work"
+                    >Speaking Engagements</a
+                  >
+                </li>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Navbar Collapse -->
         </div>
-        <!--========== SLIDER ==========-->
+      </nav>
+      <!-- Navbar -->
+    </header>
+    <!--========== END HEADER ==========-->
 
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- About -->
-        <div id="about">
-            <div class="container content-lg">
-                <div class="row">
-                    <div class="col-sm-5 sm-margin-b-60">
-                        <!--<img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">-->
-                        <img class="full-width img-responsive" src="img/group.jpeg" alt="Image">
-                    </div>
-                    <div class="col-sm-7">
-                        <div class="section-seperator margin-b-50">
-                            <div class="margin-b-50">
-                                <div class="margin-b-30">
-                                    <h2>About Me</h2>
-                                    <p>Courtney is currently the Vice President, Client Relationship Management (CRM) for National Accounts. She leads the Group Insurance National Accounts Customer Relationship Management teams comprised of Directors, Account Managers, and Sales Assistants supporting revenue, sales, persistency targets in the 5,000 lives and national group insurance market segment. She ensures the teams deliver superior customer satisfaction and account management results to the largest and most complex group insurance customers in the U.S. A market segment consisting of over 300 customers and book of business of $3.2B. Courtney has been in the insurance industry for over 20 years.
-                                        </p><p>Courtney is also the National Co-Director for the Black Leadership Forum at Prudential, the company’s largest and oldest business resource group of over 2,000 members. In this role, she partners with senior leaders and key stakeholders across the company to drive impactful and community-based engagement to enable and empower Black employees to advance in their careers, cultivate allies in the work of inclusion, and contribute to market and community success.
-                                       </p><p> Within the group insurance realm, she has held other leadership positions such as Assistant Vice President, of National Accounts Services, in the South Customer Unit at MetLife. During her 6 years at MetLife, she also held other management positions within National Accounts, including as a Client Services Manager and Client Services Director. Prior to joining MetLife, Courtney worked for Mutual of Omaha Insurance and held various positions in the Claims and Contracts departments, including a Client Representative, Premium Auditor and Supervisor in Group Premium Services.
-                                        </p><p>Courtney serves on the YWCA Greater Charleston Chapter as the Executive Treasurer; she also serves on the non-profit Charleston Teacher’s Supply Closet board.  She has a B.A. in psychology from the University of Nebraska at Omaha.
-                                        </p>
-                                </div>
-                                <a href="#" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a>
-                            </div>
-                        </div>
+    <!--========== SLIDER ==========-->
+    <div class="promo-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 sm-margin-b-60">
+            <div class="margin-b-30">
+              <h1 class="promo-block-title">
+                Courtney <br />
+                Johnson
+              </h1>
+              <p class="promo-block-text">
+                Vice President, Client Relationship Management - National
+                Accounts
+              </p>
+            </div>
+            <ul class="list-inline">
+              <li>
+                <a href="#" class="social-icons"
+                  ><i class="icon-social-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-icons"
+                  ><i class="icon-social-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-icons"
+                  ><i class="icon-social-dribbble"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-icons"
+                  ><i class="icon-social-behance"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-icons"
+                  ><i class="icon-social-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <div class="promo-block-img-wrap">
+              <img
+                class="promo-block-img img-responsive"
+                style="width: 100%"
+                src="img/profile-mn.png"
+                align="Avatar"
+              />
+            </div>
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <!--========== SLIDER ==========-->
 
-                        <!--<h2>My Skills</h2>
+    <!--========== PAGE LAYOUT ==========-->
+    <!-- About -->
+    <div id="about">
+      <div class="container content-lg">
+        <div class="row">
+          <div class="col-sm-5 sm-margin-b-60">
+            <!--<img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">-->
+            <img
+              class="full-width img-responsive"
+              src="img/group.jpeg"
+              alt="Image"
+            />
+          </div>
+          <div class="col-sm-7">
+            <div class="section-seperator margin-b-50">
+              <div class="margin-b-50">
+                <div class="margin-b-30">
+                  <h2>About Me</h2>
+                  <p>
+                    Courtney is currently the Vice President, Client
+                    Relationship Management (CRM) for National Accounts. She
+                    leads the Group Insurance National Accounts Customer
+                    Relationship Management teams comprised of Directors,
+                    Account Managers, and Sales Assistants supporting revenue,
+                    sales, persistency targets in the 5,000 lives and national
+                    group insurance market segment. She ensures the teams
+                    deliver superior customer satisfaction and account
+                    management results to the largest and most complex group
+                    insurance customers in the U.S. A market segment consisting
+                    of over 300 customers and book of business of $3.2B.
+                    Courtney has been in the insurance industry for over 20
+                    years.
+                  </p>
+                  <p>
+                    Courtney is also the National Co-Director for the Black
+                    Leadership Forum at Prudential, the company’s largest and
+                    oldest business resource group of over 2,000 members. In
+                    this role, she partners with senior leaders and key
+                    stakeholders across the company to drive impactful and
+                    community-based engagement to enable and empower Black
+                    employees to advance in their careers, cultivate allies in
+                    the work of inclusion, and contribute to market and
+                    community success.
+                  </p>
+                  <p>
+                    Within the group insurance realm, she has held other
+                    leadership positions such as Assistant Vice President, of
+                    National Accounts Services, in the South Customer Unit at
+                    MetLife. During her 6 years at MetLife, she also held other
+                    management positions within National Accounts, including as
+                    a Client Services Manager and Client Services Director.
+                    Prior to joining MetLife, Courtney worked for Mutual of
+                    Omaha Insurance and held various positions in the Claims and
+                    Contracts departments, including a Client Representative,
+                    Premium Auditor and Supervisor in Group Premium Services.
+                  </p>
+                  <p>
+                    Courtney serves on the YWCA Greater Charleston Chapter as
+                    the Executive Treasurer; she also serves on the non-profit
+                    Charleston Teacher’s Supply Closet board. She has a B.A. in
+                    psychology from the University of Nebraska at Omaha.
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="btn-theme btn-theme-md btn-default-bg text-uppercase"
+                  >Download my CV</a
+                >
+              </div>
+            </div>
+
+            <!--<h2>My Skills</h2>
                         <div class="progress-box">
                             <h5>Adobe Illustrator <span class="color-heading pull-right">87%</span></h5>
                             <div class="progress">
@@ -161,132 +281,198 @@
                             </div>
                         </div>
                     -->
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
+          </div>
         </div>
-        <!-- End About -->
+        <!--// end row -->
+      </div>
+    </div>
+    <!-- End About -->
 
-        <!-- Experience -->
-        <div id="experience">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
-                    <div class="row row-space-2 margin-b-4">
-                        <div class="col-md-3 col-sm-6 md-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-mustache"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Property Management</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 md-margin-b-4">
-                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                <div class="service-element">
-                                    <i class="service-icon color-white icon-screen-tablet"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3 class="color-white">Home Renovation</h3>
-                                    <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 sm-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-chemistry"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Home Services</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Building</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
+    <!-- Experience -->
+    <div id="experience">
+      <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="container content-lg">
+          <div class="row row-space-2 margin-b-4">
+            <div class="col-md-3 col-sm-6 md-margin-b-4">
+              <div class="service" data-height="height">
+                <div class="service-element">
+                  <i class="service-icon icon-mustache"></i>
                 </div>
+                <div class="service-info">
+                  <h3>Property Management</h3>
+                  <p class="margin-b-5">
+                    Lorem ipsum dolor amet consectetur ut consequat siad
+                    esqudiat dolor
+                  </p>
+                </div>
+                <a href="#" class="content-wrapper-link"></a>
+              </div>
             </div>
-        </div>
-        <!-- End Experience -->
-
-        <!-- Work -->
-        <div id="work">
-            <div class="container content-lg">
-                <div class="row margin-b-40">
-                    <div class="col-sm-6">
-                        <h2>Latest Presentations</h2>
-                        <p>Here are some of my most recent events</p>
-                    </div>
+            <div class="col-md-3 col-sm-6 md-margin-b-4">
+              <div
+                class="service bg-color-base wow zoomIn"
+                data-height="height"
+                data-wow-duration=".3"
+                data-wow-delay=".1s"
+              >
+                <div class="service-element">
+                  <i class="service-icon color-white icon-screen-tablet"></i>
                 </div>
-                <!--// end row -->
-
-                <div class="row">
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <!--<img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">-->
-                                <iframe width="350" height="360" src="https://www.youtube.com/embed/FX7ecbYlNwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <h4><a href="#">Breaking Barriers: Find Your Path and Empower Your Future in Financial Services</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="img-responsive" src="img/hvb.jpeg" alt="Latest Products Image">
-                            </div>
-                        </div>
-                        <h4><a href="#">Health Vision Board Party</a> <span class="text-uppercase margin-l-20">Outreach</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img class="img-responsive" src="img/51828.jpeg" alt="Latest Products Image">
-                            </div>
-                        </div>
-                        <h4><a href="#">Women's History Month</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="#">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
+                <div class="service-info">
+                  <h3 class="color-white">Home Renovation</h3>
+                  <p class="color-white margin-b-5">
+                    Lorem ipsum dolor amet consectetur ut consequat siad
+                    esqudiat dolor
+                  </p>
                 </div>
-                <!--// end row -->
+                <a href="#" class="content-wrapper-link"></a>
+              </div>
             </div>
+            <div class="col-md-3 col-sm-6 sm-margin-b-4">
+              <div class="service" data-height="height">
+                <div class="service-element">
+                  <i class="service-icon icon-chemistry"></i>
+                </div>
+                <div class="service-info">
+                  <h3>Home Services</h3>
+                  <p class="margin-b-5">
+                    Lorem ipsum dolor amet consectetur ut consequat siad
+                    esqudiat dolor
+                  </p>
+                </div>
+                <a href="#" class="content-wrapper-link"></a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service" data-height="height">
+                <div class="service-element">
+                  <i class="service-icon icon-badge"></i>
+                </div>
+                <div class="service-info">
+                  <h3>Building</h3>
+                  <p class="margin-b-5">
+                    Lorem ipsum dolor amet consectetur ut consequat siad
+                    esqudiat dolor
+                  </p>
+                </div>
+                <a href="#" class="content-wrapper-link"></a>
+              </div>
+            </div>
+          </div>
+          <!--// end row -->
         </div>
-        <!-- End Work -->
+      </div>
+    </div>
+    <!-- End Experience -->
 
-        <!-- Clients -->
-        <!--<div class="bg-color-sky-light">
+    <!-- Work -->
+    <div id="work">
+      <div class="container content-lg">
+        <div class="row margin-b-40">
+          <div class="col-sm-6">
+            <h2>Latest Presentations</h2>
+            <p>Here are some of my most recent events</p>
+          </div>
+        </div>
+        <!--// end row -->
+
+        <div class="row">
+          <!-- Latest Products -->
+          <div class="col-sm-4 sm-margin-b-50">
+            <div class="margin-b-20">
+              <div
+                class="wow zoomIn"
+                data-wow-duration=".3"
+                data-wow-delay=".1s"
+              >
+                <!--<img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">-->
+                <iframe
+                  width="350"
+                  height="360"
+                  src="https://www.youtube.com/embed/FX7ecbYlNwE"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <h4>
+              <a href="#"
+                >Breaking Barriers: Find Your Path and Empower Your Future in
+                Financial Services</a
+              >
+              <span class="text-uppercase margin-l-20">Management</span>
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor
+              incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor
+            </p>
+            <a class="link" href="#">Read More</a>
+          </div>
+          <!-- End Latest Products -->
+
+          <!-- Latest Products -->
+          <div class="col-sm-4 sm-margin-b-50">
+            <div class="margin-b-20">
+              <div
+                class="wow zoomIn"
+                data-wow-duration=".3"
+                data-wow-delay=".1s"
+              >
+                <img
+                  class="img-responsive"
+                  src="img/hvb.jpeg"
+                  alt="Latest Products Image"
+                />
+              </div>
+            </div>
+            <h4>
+              <a href="#">Health Vision Board Party</a>
+              <span class="text-uppercase margin-l-20">Outreach</span>
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor
+              incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor
+            </p>
+            <a class="link" href="#">Read More</a>
+          </div>
+          <!-- End Latest Products -->
+
+          <!-- Latest Products -->
+          <div class="col-sm-4 sm-margin-b-50">
+            <div class="margin-b-20">
+              <div
+                class="wow zoomIn"
+                data-wow-duration=".3"
+                data-wow-delay=".1s"
+              >
+                <img
+                  class="img-responsive"
+                  src="img/51828.jpeg"
+                  alt="Latest Products Image"
+                />
+              </div>
+            </div>
+            <h4>
+              <a href="#">Women's History Month</a>
+              <span class="text-uppercase margin-l-20">Design</span>
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor
+              incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor
+            </p>
+            <a class="link" href="#">Read More</a>
+          </div>
+          <!-- End Latest Products -->
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <!-- End Work -->
+
+    <!-- Clients -->
+    <!--<div class="bg-color-sky-light">
             <div class="content-lg container">
               
                 <div class="swiper-slider swiper-clients">
@@ -315,94 +501,126 @@
              
             </div>
         </div>-->
-        <!-- End Clients -->
+    <!-- End Clients -->
 
-        <!-- Promo Banner -->
-        <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/pexels-rene-asmussen-3990359.jpg">
-            <div class="container-sm content-lg">
-                <h2 class="promo-banner-title">Home Renovation</h2>
-                <p class="promo-banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <!-- Promo Banner -->
+    <div
+      class="promo-banner parallax-window"
+      data-parallax="scroll"
+      data-image-src="img/pexels-rene-asmussen-3990359.jpg"
+    >
+      <div class="container-sm content-lg">
+        <h2 class="promo-banner-title">Home Renovation</h2>
+        <p class="promo-banner-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo.
+        </p>
+      </div>
+    </div>
+    <!-- End Promo Banner -->
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="bg-color-sky-light">
+        <div class="container content-lg">
+          <div class="row margin-b-40">
+            <div class="col-sm-6">
+              <h2>Contact Me</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit sed
+                tempor incididunt ut laboret dolore magna aliqua enim minim
+                veniam exercitation
+              </p>
             </div>
+          </div>
+          <!--// end row -->
+
+          <div class="row">
+            <div class="col-md-3 col-xs-6 md-margin-b-30">
+              <h4>Location</h4>
+              <a href="#">Brookyln, New York</a>
+            </div>
+            <div class="col-md-3 col-xs-6 md-margin-b-30">
+              <h4>Phone</h4>
+              <a href="#">+77 234 548 00 00</a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <h4>Email</h4>
+              <a href="mailto:#">alex.teseira@gmail.com</a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <h4>Web</h4>
+              <a href="#">alex.teseira.com</a>
+            </div>
+          </div>
+          <!--// end row -->
         </div>
-        <!-- End Promo Banner -->
-            
-        <!-- Contact -->
-        <div id="contact">
-            <div class="bg-color-sky-light">
-                <div class="container content-lg">
-                    <div class="row margin-b-40">
-                        <div class="col-sm-6">
-                           <h2>Contact Me</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                        </div>
-                    </div>
-                    <!--// end row -->
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!--========== END PAGE LAYOUT ==========-->
 
-                    <div class="row">
-                        <div class="col-md-3 col-xs-6 md-margin-b-30">
-                            <h4>Location</h4>
-                            <a href="#">Brookyln, New York</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6 md-margin-b-30">
-                            <h4>Phone</h4>
-                            <a href="#">+77 234 548 00 00</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6">
-                            <h4>Email</h4>
-                            <a href="mailto:#">alex.teseira@gmail.com</a>
-                        </div>
-                        <div class="col-md-3 col-xs-6">
-                            <h4>Web</h4>
-                            <a href="#">alex.teseira.com</a>
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
+    <!--========== FOOTER ==========-->
+    <footer class="footer">
+      <div class="content container">
+        <div class="row">
+          <div class="col-xs-6">
+            <img class="footer-logo" src="img/logo.png" alt="Acecv Logo" />
+          </div>
+          <div class="col-xs-6 text-right sm-text-left">
+            <p class="margin-b-0">
+              <a class="fweight-700" href="http://keenthemes.com/preview/acecv/"
+                >Acecv</a
+              >
+              Theme Powered by:
+              <a class="fweight-700" href="http://www.keenthemes.com/"
+                >KeenThemes.com</a
+              >
+            </p>
+          </div>
         </div>
-        <!-- End Contact -->
-        <!--========== END PAGE LAYOUT ==========-->
+        <!--// end row -->
+      </div>
+    </footer>
+    <!--========== END FOOTER ==========-->
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <div class="content container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo.png" alt="Acecv Logo">
-                    </div>
-                    <div class="col-xs-6 text-right sm-text-left">
-                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/acecv/">Acecv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </footer>
-        <!--========== END FOOTER ==========-->
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
 
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script
+      src="vendor/bootstrap/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
 
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script
+      src="vendor/jquery.smooth-scroll.js"
+      type="text/javascript"
+    ></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+    <script
+      src="vendor/swiper/js/swiper.jquery.min.js"
+      type="text/javascript"
+    ></script>
 
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
-        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
-        <script src="js/components/swiper.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-
-    </body>
-    <!-- END BODY -->
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script
+      src="js/components/progress-bar.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="js/components/swiper.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+  </body>
+  <!-- END BODY -->
 </html>
