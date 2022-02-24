@@ -528,10 +528,12 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon.is-clicked {
   background: rgba(81, 87, 105, 0);
 }
-
+#contact a{
+  font-size: 16px;
+}
 /* Navbar Logo */
 .header .logo {
-  width: 100px;
+  width: 200px;
   height: 100px;
   float: left;
   max-height: 95px;
@@ -555,7 +557,9 @@ fieldset[disabled] .btn-theme {
   max-height: 100%;
   vertical-align: middle;
 }
-
+#carousel-example-generic{
+  width:74%;
+}
 /* Navbar */
 .header .navbar-nav {
   padding-left: 0;
@@ -671,8 +675,15 @@ fieldset[disabled] .btn-theme {
   }
 }
 
+
 /* Media Queries below 767px */
-@media (max-width: 767px) {
+@media (max-width: 821px) {
+  #carousel-example-generic{
+    display:none;
+  }
+  #images{
+    display: block;
+  }
   /* Menu Container */
   .header .menu-container {
     padding-left: 15px;
