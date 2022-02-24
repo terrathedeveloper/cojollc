@@ -322,6 +322,8 @@ fieldset[disabled] .btn-theme {
 .promo-banner .promo-banner-title {
   font-size: 50px;
   color: #fff;
+  margin-top: 0px;
+  text-align: center;
 }
 
 .promo-banner .promo-banner-text {
@@ -338,12 +340,20 @@ fieldset[disabled] .btn-theme {
   background: purple;
   padding-top: 220px;
 }
-
+#property .promo-banner-title-prop {
+  margin-top: 30px;
+  text-align: center;
+}
 @media (max-width: 768px) {
   .promo-block {
     text-align: center;
     padding-top: 170px;
   }
+  #property .promo-banner-title-prop {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
 }
 
 .promo-block .promo-block-title {
