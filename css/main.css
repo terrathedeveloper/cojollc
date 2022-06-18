@@ -1,0 +1,7 @@
+.prop-container{
+    display:flex; justify-content: space-evenly;
+}
+
+.prop-container div img{
+    width:100%;
+}
